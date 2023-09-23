@@ -62,6 +62,11 @@ namespace ProjectTemplate
 				return "Something went wrong, please check your credentials and db name and try again.  Error: "+e.Message;
 			}
 		}
+        [WebMethod(EnableSession = true)] //NOTICE: gotta enable session on each individual method
+        public string LogOnEmpty()
+		{
+            return "XXX!";
+        }
 
         [WebMethod(EnableSession = true)] //NOTICE: gotta enable session on each individual method
         public bool LogOn(string uid, string pass)

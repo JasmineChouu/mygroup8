@@ -94,6 +94,8 @@
     <Content Include="dashboard.html" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
+    <Content Include="jasmine.js" />
+    <Content Include="login.js" />
     <Content Include="ProjectServices.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
