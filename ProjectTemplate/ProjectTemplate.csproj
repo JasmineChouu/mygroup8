@@ -90,6 +90,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="balance.js" />
+    <Content Include="dashboard.html" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="ProjectServices.asmx" />
